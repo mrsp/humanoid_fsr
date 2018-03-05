@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<launch>
+  <!-- Call Humanoid State Estimation Driver -->
+  <node pkg="humanoid_fsr" type="humanoid_fsr" name="humanoid_fsr" respawn="false" output="screen" >
+ 	<!-- Load configurations from YAML file to parameter server -->
+   	 <rosparam file="$(find humanoid_humanoid_fsr)/config/estimation_params.yaml" command="load"/> 
+  </node>
+</launch>

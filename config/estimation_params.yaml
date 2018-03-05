@@ -1,0 +1,24 @@
+#Robot Frames (CHECK URDF)
+lfoot: "l_sole"
+rfoot: "r_sole"
+lfsr1: "LFsrFL_frame"
+lfsr2: "LFsrFR_frame"
+lfsr3: "LFsrRL_frame"
+lfsr4: "LFsrRR_frame"
+rfsr1: "RFsrFL_frame"
+rfsr2: "RFsrFR_frame"
+rfsr3: "RFsrRL_frame"
+rfsr4: "RFsrRR_frame"
+
+#ROS Topic Names
+lfsr1_topic: "/nao_robot/LfsrFL"
+lfsr2_topic: "/nao_robot/LfsrFR"
+lfsr3_topic: "/nao_robot/LfsrRL"
+lfsr4_topic: "/nao_robot/LfsrRR"
+rfsr1_topic: "/nao_robot/RfsrFL"
+rfsr2_topic: "/nao_robot/RfsrFR"
+rfsr3_topic: "/nao_robot/RfsrRL"
+rfsr4_topic: "/nao_robot/RfsrRR"
+
+fsr_topic_freq: 100  #Hz
+gravity: 9.80665 #gravity constant (m/s^2)
